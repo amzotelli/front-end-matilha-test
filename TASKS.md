@@ -16,9 +16,23 @@
       * box: title, items, subtitle
   * Module 04
     * header, list, button
-          
 
-- Começar a construção dos componentes
+<br>
+
+### Atomic Design Pattern 
+<br>
+
+- Atom:  Button, Title, Subtitle
+
+- Molecule: NavBar
+
+- Organism: Module Content
+
+- Template: Module
+
+<br>
+
+Começar a construção dos componentes
 1. Nav Bar
 2. Button Login
 3. Title + Subtitle
