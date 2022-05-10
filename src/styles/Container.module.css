@@ -1,0 +1,114 @@
+.detail { 
+  float: left;
+  width: 66%;
+  margin-right: -100%;
+  padding-top: 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.leftSide { 
+  float: left;
+  width: 66%;
+  margin-right: -100%;
+  padding-top: 15%;
+  position: relative;
+  z-index: 3;
+}
+
+.main::after { 
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+.loginButton { 
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  background-color: #F2A900;
+  padding: 10px 24px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  float: left;
+  margin-right: -100%;
+  position: relative;
+  z-index: 2;
+  margin-top: 150px;
+  margin-left: 250px;
+}
+
+.secondContainer { 
+  margin-top: 0;
+  background-color: #000000;
+}
+
+.secondDetail { 
+  float: left;
+  width: 66%;
+  margin-right: -100%;
+  padding-top: 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.secondMain::after { 
+  content: ' ';
+  display: table;
+  clear: both;
+}
+
+.aha2 {
+  font-family: 'Headliner', sans-serif;
+  float: left;
+  margin-right: -100%;
+  padding-top: 15%;
+  position: relative;
+  z-index: 2;
+}
+
+.secondLogin {
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  background-color: #F2A900;
+  padding: 10px 24px;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 1;
+  float: center;
+  margin-left: 751px;
+  margin-top: 0;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #F2A900; 
+  line-height: 128%;
+  text-transform: uppercase;  
+  font-weight: 400;
+}
+
+.title {
+  font-size: 57px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29.44px;
+  width: 512px;
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+
+.container3 {
+  background-color: #000000;
+}
