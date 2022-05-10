@@ -1,7 +1,5 @@
 import Image from 'next/image';
 
-import LoginButton from './LoginButton';
-
 import styles from '../styles/NavBar.module.css';
 
 export default function NavBar() {
