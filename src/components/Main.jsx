@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import Title from './Title';
+import Title from './subcomponents/Title';
 import styles from '../styles/Main.module.css';
 
 export default function Section2() {
@@ -10,7 +10,7 @@ export default function Section2() {
       <div className={ styles.text }>
           <Title title="ABOUT THE EVENT" />
           <Image
-            src="/images/section2/grad-line.png"
+            src="/images/main/grad-line.png"
             width="401px"
             height="5px" 
             alt="color"
@@ -18,7 +18,7 @@ export default function Section2() {
         </div>
         <div className={ styles.secondDetail }>
           <Image
-            src="/images/section2/img-characters.png"
+            src="/images/main/img-characters.png"
             alt="Characters"
             width="536px"
             height="554px" 

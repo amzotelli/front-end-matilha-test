@@ -6,7 +6,7 @@
 }
 
 .background {
-  background-image: url(../../public/images/section3/img-pubggraffitti.png);
+  background-image: url(../../public/images/awardSection/img-pubggraffitti.png);
   background-position: right;
   background-repeat: no-repeat;
   object-fit: fill;
@@ -45,7 +45,7 @@
 .secondMain { 
   width: 528px;
   height: 520px;
-  background-image: url('../../public/images/section3/background.png');
+  background-image: url('../../public/images/awardSection/background.png');
   background-color: #313131;
   box-shadow: #141414 0 2 28 0 30%;  
 }
