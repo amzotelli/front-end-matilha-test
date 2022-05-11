@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
 @font-face {
   font-family: 'Bender';
   src: url('/fonts/bender/bender.regular.otf');
@@ -9,22 +11,6 @@
 @font-face {
   font-family: 'Headliner';
   src: url('/fonts/headliner/HeadlinerNo.45 DEMO.ttf');
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto';
-  src: url('/fonts/roboto/Roboto-Regular.ttf');
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Teko';
-  src: url('/fonts/teko/Teko-Regular.ttf');
   font-style: normal;
   font-weight: 400;
   font-display: swap;

@@ -1,29 +1,3 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "extends": [
-        "next/core-web-vitals",
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "airbnb",
-        "prettier"
-    ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true,
-            "modules": true
-        },
-        "ecmaVersion": 6,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-    "prefer-const": "error",
-    "react/react-in-jsx-scope": "off",
-    "react/no-unescaped-entities": "off"
-    }
+  "extends": "next/core-web-vitals"
 }

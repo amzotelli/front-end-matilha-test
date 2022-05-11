@@ -7,26 +7,18 @@ export default function NavBar() {
     <nav>
       <div className={styles.container}>
         <div className={ styles.leftSide }>
-          <Image
-            src="/images/navbar/logo.png"
-            alt="logo"
-            width="136px"
-            height="48px"
-            className={ styles.logo } 
-          />
-            <span>ABOUT THE EVENT</span>
-            <span>REWARDS</span>
-            <span>ACCOUNT</span>
-        </div>
+          <Image src="/images/navbar/logo.png" alt="logo" width="136px" height="48px" className={ styles.logo } />
+              <div>ABOUT THE EVENT</div>
+              <div>REWARDS</div>
+              <div>ACCOUNT</div>
+            </div>
         <div className={ styles.rightSide }>
-          <button
-            type="button"
-            className={ styles.loginButton }
-          >
+          <button type="button" className={ styles.loginButton }>
             LOGIN TO EARN REWARDS
           </button>
+          <Image src="/images/navbar/dust_bg.png" alt="dust" width="1920px" height="100%" className={ styles.background } />
         </div>
-      </div>
+    </div>
     </nav>
   )
 }
