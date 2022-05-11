@@ -1,9 +1,9 @@
   .subtitle {
   font-size: 24px;
   color: #F2A900; 
-  line-height: 128%;
   text-transform: uppercase;  
   font-weight: 400;
+  margin: -6px 0;
 }
 
 .title {
