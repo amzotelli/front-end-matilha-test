@@ -1,31 +1,40 @@
 .container {
   background-color: #000000;
   color: #ffffff;
-  width: 1920px;
   height: 88px;
-  z-index: -3;
   margin: 0;
+  width: 1440px;
+  z-index: -3;
+  background-image: url('../../public/images/navbar/dust_bg.png');
 }
 
 .leftSide {
   align-content: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  align-items: flex-start;
+  display: flex;
   font-family: 'Bender', sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 21px;
-  position: absolute;
-  display: flex;
-  align-items: flex-start;
   justify-content: space-around;
-  z-index: 1;
+  letter-spacing: 0.05em;
+  line-height: 21px;
+  margin-left: 35px;
+  margin-top: 8px;
+  position: absolute;
   padding: 10px 24px;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.leftSide span {
+  align-items: center;
+  margin: 20px 10px;
 }
 
 .logo {
   width: 136.8px;
   height: 48px;
+  padding: 0 15px;
 }
 
 .rightSide { 
@@ -36,14 +45,16 @@
 }
 
 .loginButton {
-  font-family: 'Teko', sans-serif;
-  font-size: 18px;
   background-color: #F2A900;
-  padding: 10px 24px;
-  color: #fff;
   border: none;
   border-radius: 2px;
+  color: #fff;
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  margin-right: -1370px;
+  margin-top: 7px;
+  padding: 10px 24px;
   position: absolute;
-  z-index: 1;
+  float: right;
+  z-index: 4;
 }
-

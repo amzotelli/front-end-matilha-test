@@ -7,8 +7,8 @@
   font-family: 'Headliner', sans-serif;
   float: left;
   position: absolute;
-  margin-top: 1.7%;
-  margin-left: 109%; 
+  margin-top: 2%;
+  margin-left: 90%; 
   z-index: 4;
   line-height: 0px;
 }
@@ -49,8 +49,8 @@
   border: none;
   border-radius: 2px;
   position: absolute;
-  margin-top: 41%;
-  margin-left: 109%; 
+  margin-top: 33.5%;
+  margin-left: 90%; 
   z-index: 1;
 }
 
@@ -61,8 +61,8 @@
   line-height: 29.44px;
   width: 512px;
   position: absolute;
-  margin-top: 12%;
-  margin-left: 109%; 
+  margin-top: 10%;
+  margin-left: 90%; 
   z-index: 3;
 }
 
@@ -73,8 +73,8 @@
   font-weight: 700;
   letter-spacing: 0.05em;
   line-height: 21px;
-  margin-left: 109%;
-  margin-top: 35%;
+  margin-left: 90%;
+  margin-top: 28.5%;
   text-decoration: underline;
   text-transform: uppercase;
   position: absolute;

@@ -7,6 +7,7 @@ export default function Section2() {
   return (
     <section className={ styles.container }>
       <div className={ styles.secondContainer }>
+        <div className={styles.rightSide}>
       <div className={ styles.text }>
           <Title title="ABOUT THE EVENT" />
           <Image
@@ -41,6 +42,7 @@ export default function Section2() {
             <h5>SEE THE OFFICIAL RULES</h5>
           </div>
         </div>
+      </div>
       </div>
     </section>
   )
