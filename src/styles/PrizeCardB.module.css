@@ -1,0 +1,44 @@
+.headingB {
+  font-size: 38px;
+  font-family: Headliner, sans-serif;
+  font-weight: 400;
+  margin-top: -40%;
+  margin-left: 130%;
+  position: absolute;
+  z-index: 4;
+  text-transform: uppercase; 
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.secondDetailB { 
+  float: left;
+  margin-right: -100%;
+  margin-left: 130%;
+  margin-top: -40%;
+  position: absolute;
+  z-index: 0;
+}
+
+.detailB { 
+  margin-top: 37%;
+  margin-left: 0%;
+  z-index: 4;
+}
+
+.secondMainB { 
+  width: 528px;
+  height: 520px;
+  background-image: url('../../public/images/awardSection/background.png');
+  background-color: #313131;
+  box-shadow: #141414 0, 2, 28, 0, 30%;  
+  margin: 0%;
+  border-radius: 5%;
+  object-fit: cover;
+  margin-top: -70%;
+  margin-left: 120%;
+  position: absolute;
+  z-index: -2;
+}
+
+

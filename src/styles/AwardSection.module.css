@@ -2,7 +2,7 @@
 .container3 {
   background-color: #000000;
   width: 1440px;
-  height: 700px;
+  height: 1144px;
 }
 
 .background {
@@ -20,7 +20,7 @@
   line-height: 29.44px;
   width: 512px;
   position: absolute;
-  margin-top: -2%;
+  margin-top: -5%;
   z-index: 3;
 }
 
@@ -32,22 +32,6 @@
   margin-left: 16%; 
   z-index: 4;
   line-height: 0px;
-}
-
-.secondDetail { 
-  float: left;
-  margin-right: -100%;
-  margin-left: 3%;
-  position: relative;
-  z-index: 1;
-}
-
-.secondMain { 
-  width: 528px;
-  height: 520px;
-  background-image: url('../../public/images/awardSection/background.png');
-  background-color: #313131;
-  box-shadow: #141414 0 2 28 0 30%;  
 }
 
 .heading1 {
