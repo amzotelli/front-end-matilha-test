@@ -1,0 +1,13 @@
+  .subtitle {
+  font-size: 24px;
+  color: #F2A900; 
+  line-height: 128%;
+  text-transform: uppercase;  
+  font-weight: 400;
+}
+
+.title {
+  font-size: 57px;
+  color: #fff;
+  font-weight: 400;
+}

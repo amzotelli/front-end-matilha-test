@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 import Title from '../components/Title';
-import styles from '../styles/Container.module.css';
+import styles from '../styles/Section2.module.css';
 
 export default function Section2() {
   return (
     <section>
-      <div className={ styles.aha2 }>
+      <div className={ styles.text }>
         <Title title="ABOUT THE EVENT" />
       </div>
       <div className={ styles.secondContainer }>

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import Title from '../components/Title';
-import styles from '../styles/Container.module.css';
+import styles from '../styles/Section3.module.css';
 
 export default function Section3() {
   return (
