@@ -1,0 +1,49 @@
+.container {
+  width: 1440px;
+  background-image: url('../../public/images/section1/l-1920px.png');
+  background-position: center;
+  height: 700px;
+}
+
+.detail { 
+  float: left;
+  margin-left: -140px;
+  padding-top: 100px;
+  position: relative;
+  width: 1025px;
+  z-index: 1;
+}
+
+.leftSide { 
+  display: flex;
+  float: left;
+  justify-content: center;
+  margin-right: -100%;
+  margin-left: -4.8%;
+  padding-top: 14.5%;
+  position: relative;
+  width: 66%;
+  z-index: 3;
+}
+
+.main::after { 
+  clear: both;
+  content: ' ';
+  display: table;
+}
+
+.loginButton { 
+  background-color: #F2A900;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  float: left;
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  padding: 10px 24px;
+  margin-right: -100%;
+  margin-top: 35%;
+  margin-left: 32%;
+  position: relative;
+  z-index: 1;
+}
