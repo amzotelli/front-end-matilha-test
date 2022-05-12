@@ -26,6 +26,20 @@ export default function NavBar() {
             LOGIN TO EARN REWARDS
           </button>
         </div>
+        <div className={ styles.mobile }>
+          <button
+            type="button"
+            className={ styles.loginButton }
+          >
+                LOGIN
+          </button>
+          <Image
+            src="/images/navbar/languages-icon.png"
+            alt="languages"
+            width="24px"
+            height="24px" 
+          />
+        </div>
       </div>
     </nav>
   )

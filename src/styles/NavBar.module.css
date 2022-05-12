@@ -39,8 +39,7 @@
 }
 
 .rightSide {
-  display: flex;
-  justify-content: flex-end;
+  margin-left: 82%;
   padding: 15px;
   position: absolute;
 }
@@ -58,4 +57,29 @@
   padding: 10px 24px;
   position: absolute;
   z-index: 4;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 375px) {
+
+.container {
+  max-width: 375px;
+}
+
+.leftSide span {
+  display: none;
+}
+
+.logo {
+  width: 114px;
+  height: 40px;
+}
+
+.loginButton {
+  width: 85px;
+  height: 48px;
+}
 }
