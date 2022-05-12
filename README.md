@@ -21,7 +21,7 @@ Nesse teste eu desenvolvi uma aplicação Front-End, onde:
 
 ### **O que foi desenvolvido**
 
-Nesse teste eu precisei criar uma Landing Page, responsiva, cujo design já estava pronto no Figma.
+Nesse teste eu precisei criar uma Landing Page, responsiva (Width: Desktop 1440px, Mobile 375px), cujo design já estava pronto no Figma.
 
 <br>
 <br>
@@ -35,6 +35,7 @@ Nesse teste eu precisei criar uma Landing Page, responsiva, cujo design já esta
 
 2. Instale as dependências e inicialize o projeto: 
 * Instale as dependências: `npm install`
+* Inicialize o build da aplicação: `npm build`
 * Inicialize a aplicação: `npm start`
 
 3. Abra o navegador e acesse localhost:3000
