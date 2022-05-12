@@ -2,7 +2,7 @@
   background-image: url('../../public/images/header/l-1920px.png');
   background-position: center;
   height: 700px;
-  width: 100%vw;
+  width: 100vw;
 }
 
 .leftSide {
@@ -42,38 +42,38 @@
   z-index: 1;
 }
 
-@media screen and (max-width: 375px) {
-.container {
-  align-items: center;
-  align-content: center;  
-  background-image: url('../../public/images/header/s-764px.png');
-  background-size: 220%;
-  background-position: center;
-  padding-top: -60%;
-  padding-bottom: 45px;
-  object-fit: cover;
-  height: 590px;
-  width: 100%vw;
-}
+@media screen and ( max-width : 375px ) {
 
-.detail {
-  margin-top: -85%;
-  margin-left: -70%;
-  width: 220%;
-  width: 100%vw;
-}
+  .container {
+    align-content: center;
+    align-items: center;
+    background-image: url('../../public/images/header/s-764px.png');
+    background-position: center;
+    background-size: 220%;
+    height: 590px;
+    object-fit: cover;
+    padding-bottom: 45px;
+    padding-top: -60%;
+    width: 100vw;
+  }
 
-.loginButton {
-  margin-right: -100px;
-  margin-left: 43%;
-  margin-top: -120px;
-}
+  .detail {
+    margin-left: -70%;
+    margin-top: -85%;
+    width: 220%;
+  }
 
-.leftSide {
-  margin-right: -100px;
-  margin-left: 1%;
-  margin-top: 110%;
-  width: 90%;
-}
+  .loginButton {
+    margin-left: 43%;
+    margin-right: -100px;
+    margin-top: -120px;
+  }
+
+  .leftSide {
+    margin-left: 1%;
+    margin-right: -100px;
+    margin-top: 110%;
+    width: 90%;
+  }
 
 }

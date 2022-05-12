@@ -64,9 +64,9 @@
 
 .rewardBackgroundA {
   background-image: url('../../../public/images/awardSection/background.png');
+  height: 520px;
   object-fit: cover;
   width: 528px;
-  height: 520px;
   z-index: 8;
 }
 
@@ -134,9 +134,9 @@
 
 .rewardBackgroundB {
   background-image: url('../../../public/images/awardSection/background.png');
+  height: 520px;
   object-fit: cover;
   width: 528px;
-  height: 520px;
   z-index: 1;
 }
 
@@ -154,125 +154,127 @@
   z-index: 0;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and ( max-width : 375px ) {
+
   .prizeB {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 75%;
-  padding-top: 130%;
-  position: absolute;
-  width: 100%;
-}
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 75%;
+    padding-top: 130%;
+    position: absolute;
+    width: 100%;
+  }
 
-.headingA {
-  font-size: 22px;
-  margin-left: 8%;
-  margin-right: -100%;
-  margin-top: 52%;
-}
+  .headingA {
+    font-size: 22px;
+    margin-left: 8%;
+    margin-right: -100%;
+    margin-top: 52%;
+  }
 
-.titleImageA {
-  margin-left: -6%;
-  margin-right: -100%;
-  margin-top: 45%;
-  width: 376px;
-}
+  .titleImageA {
+    margin-left: -6%;
+    margin-right: -100%;
+    margin-top: 45%;
+    width: 376px;
+  }
 
-.subtitleA {
-  font-family: Bender , sans-serif;
-  font-size: 14px;
-  margin-left: 26%;
-  margin-right: -100px;
-  margin-top: 150%;
-  position: absolute;
-}
+  .subtitleA {
+    font-family: Bender , sans-serif;
+    font-size: 14px;
+    margin-left: 26%;
+    margin-right: -100px;
+    margin-top: 150%;
+    position: absolute;
+  }
 
-.prizeTextA {
-  line-height: 7px;
-  margin-left: 8%;
-  margin-right: -100%;
-  margin-top: 155%;
-}
+  .prizeTextA {
+    line-height: 7px;
+    margin-left: 8%;
+    margin-right: -100%;
+    margin-top: 155%;
+  }
 
-.rewardA {
-  margin-left: 1%;
-  margin-right: -100%;
-  margin-top: 59%;
-  width: 310px;
-}
+  .rewardA {
+    margin-left: 1%;
+    margin-right: -100%;
+    margin-top: 59%;
+    width: 310px;
+  }
 
-.rewardBackgroundA {
-  background-image: url('../../../public/images/awardSection/backgroundMobile.png');
-  object-fit: contain;
-  height: 428px;
-}
+  .rewardBackgroundA {
+    background-image: url('../../../public/images/awardSection/backgroundMobile.png');
+    height: 428px;
+    object-fit: contain;
+  }
 
-.prizeContainerA {
-  height: 428px;
-  margin-left: -2%;
-  margin-right: -100%;
-  margin-top: 50%;
-  width: 330px;
-}
+  .prizeContainerA {
+    height: 428px;
+    margin-left: -2%;
+    margin-right: -100%;
+    margin-top: 50%;
+    width: 330px;
+  }
 
-.headingB {
-  color: #fff;
-  font-family: Headliner , sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  letter-spacing: 0.05em;
-  margin-right: -100%;
-  margin-left: -310%;
-  margin-top: 185%;
-  position: absolute;
-  text-transform: uppercase;
-}
+  .headingB {
+    color: #fff;
+    font-family: Headliner , sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-left: -310%;
+    margin-right: -100%;
+    margin-top: 185%;
+    position: absolute;
+    text-transform: uppercase;
+  }
 
-.titleImageB {
-  margin-right: 0;
-  margin-left: -445px;
-  margin-top: 190%;
-  width: 120%;
-}
+  .titleImageB {
+    margin-left: -445px;
+    margin-right: 0;
+    margin-top: 190%;
+    width: 120%;
+  }
 
-.subtitleB {
-  margin-right: -100%;
-  margin-left: -780px;
-  margin-top: 370%;
-}
+  .subtitleB {
+    margin-left: -780px;
+    margin-right: -100%;
+    margin-top: 370%;
+  }
 
-.prizeTextB {
-  color: #729da6;
-  font-size: 24px;
-  letter-spacing: 0.8px;
-  line-height: 7px;
-  margin-right: -100%;
-  margin-left: -780px;
-  margin-top: 390%;
-}
+  .prizeTextB {
+    color: #729da6;
+    font-size: 24px;
+    letter-spacing: 0.8px;
+    line-height: 7px;
+    margin-left: -780px;
+    margin-right: -100%;
+    margin-top: 390%;
+  }
 
-.rewardB {
-  margin-left: -250%;
-  margin-right: -100%;
-  margin-top: 250%;
-  width: 310px;
-}
+  .rewardB {
+    margin-left: -250%;
+    margin-right: -100%;
+    margin-top: 250%;
+    width: 310px;
+  }
 
-.rewardBackgroundB {
-  background-image: url('../../../public/images/awardSection/backgroundMobile.png');
-  object-fit: cover;
-  width: 330px;
-  height: 428px;
-  margin-top: 20%;
-}
+  .rewardBackgroundB {
+    background-image: url('../../../public/images/awardSection/backgroundMobile.png');
+    height: 428px;
+    margin-top: 20%;
+    object-fit: cover;
+    width: 330px;
+  }
 
-.prizeContainerB {
-  height: 428px;
-  margin-left: -2%;
-  margin-right: 148%;
-  margin-top: 300%;
-  width: 330px;
-}
+  .prizeContainerB {
+    height: 428px;
+    margin-left: -2%;
+    margin-right: 148%;
+    margin-top: 300%;
+    width: 330px;
+  }
+
 }

@@ -5,7 +5,7 @@
   height: 88px;
   margin: 0;
   padding: 5px;
-  width: 100%vw;
+  width: 100vw;
   z-index: 6;
 }
 
@@ -63,52 +63,53 @@
   display: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and ( max-width : 375px ) {
 
-.container {
-  max-width: 375px;
-  padding: 0;
-  margin: 0;
-}
+  .container {
+    margin: 0;
+    max-width: 375px;
+    padding: 0;
+  }
 
-.leftSide {
-  padding: 5%;
-  margin: 0;
-  display: block;
-}
+  .leftSide {
+    display: block;
+    margin: 0;
+    padding: 5%;
+  }
 
-.leftSide span {
-  display: none;
-}
+  .leftSide span {
+    display: none;
+  }
 
-.logo {
-  width: 114px;
-  height: 40px;
-}
+  .logo {
+    height: 40px;
+    width: 114px;
+  }
 
-.loginButton {
-  display: none;
-}
+  .loginButton {
+    display: none;
+  }
 
-.mobile {
-  display: block;
-  padding: 6%;
-}
+  .mobile {
+    display: block;
+    padding: 6%;
+  }
 
-.language {
-  display: block;
-  padding-left: 90%;
-  margin-top: -12%;
-}
+  .language {
+    display: block;
+    margin-top: -12%;
+    padding-left: 90%;
+  }
 
-.loginButtonMobile {
-  background-color: #f2a900;
-  border: none;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Teko , sans-serif;
-  font-size: 18px;
-  padding: 10px 24px;
-  margin-left: 60%;
-}
+  .loginButtonMobile {
+    background-color: #f2a900;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: Teko , sans-serif;
+    font-size: 18px;
+    margin-left: 60%;
+    padding: 10px 24px;
+  }
+
 }

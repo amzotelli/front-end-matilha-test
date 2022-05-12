@@ -1,8 +1,8 @@
 .divider {
   background-image: url('../../public/images/footer/divider-bottom_alt.png');
   height: 31px;
-  width: 1440px;
   margin-top: -2%;
+  width: 1440px;
 }
 
 .footerContainer {
@@ -10,24 +10,26 @@
   background-image: url('../../public/images/footer/footer.png');
   background-repeat: no-repeat;
   height: 143px;
-  width: 100%vw;
+  width: 100vw;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and ( max-width : 375px ) {
+
   .divider {
-  background-image: url('../../public/images/footer/divider-bottom_alt.png');
-  background-position: center;
-  margin-left: -150%;
-  height: 31px;
-  width: 100%vw;
-  margin-top: -5%;
-}
+    background-image: url('../../public/images/footer/divider-bottom_alt.png');
+    background-position: center;
+    height: 31px;
+    margin-left: -150%;
+    margin-top: -5%;
+    width: 100vw;
+  }
 
   .footerContainer {
-  background-color: #161720;
-  background-image: url('../../public/images/footer/footer-mobile.png');
-  background-repeat: no-repeat;
-  height: 257px;
-  width: 100%vw;
-}
+    background-color: #161720;
+    background-image: url('../../public/images/footer/footer-mobile.png');
+    background-repeat: no-repeat;
+    height: 257px;
+    width: 100vw;
+  }
+
 }
