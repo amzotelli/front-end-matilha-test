@@ -1,27 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
-
 @font-face {
-  font-family: 'Bender';
+  font-display: swap;
+  font-family: Bender;
+  font-style: normal;
+  font-weight: 400;
   src: url('/fonts/bender/bender.regular.otf');
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: 'Headliner';
-  src: url('/fonts/headliner/HeadlinerNo.45 DEMO.ttf');
+  font-display: swap;
+  font-family: Headliner;
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  src: url('/fonts/headliner/HeadlinerNo.45 DEMO.ttf');
 }
 
-html,
-body {
-  background-color: #4D4D4D;
+@font-face {
+  font-display: swap;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: Teko;
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/teko/Teko-Regular.ttf');
+}
+
+html, body {
+  background-color: #4d4d4d;
   color: #eee;
-  font-family:  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: -apple-system , BlinkMacSystemFont , Segoe UI , Roboto , Oxygen ,
+    Ubuntu , Cantarell , Fira Sans , Droid Sans , Helvetica Neue , sans-serif;
   margin: 0;
 }
 
@@ -31,5 +44,5 @@ a {
 }
 
 span {
-  font-family: 'Bender', sans-serif;
+  font-family: Bender , sans-serif;
 }
