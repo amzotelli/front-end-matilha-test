@@ -1,11 +1,11 @@
-.topImage {
+.borderImage {
   margin-bottom: -1%;
   object-fit: cover;
   position: absolute;
   z-index: 3;
 }
 
-.text {
+.heading {
   font-family: Headliner , sans-serif;
   line-height: 0px;
   margin-left: 14.8%;
@@ -14,16 +14,13 @@
   z-index: 4;
 }
 
-.text h3 {
+.heading h3 {
   color: #202020;
 }
 
-.image {
-  background-image: url('../../public/images/stepsSection/pubg-kraftonid.png');
-  background-repeat: no-repeat;
-  height: 420px;
-  padding-top: 55%;
-  width: 430px;
+.imageIcon {
+  margin-left: -0%;
+  padding-top: -20%;
 }
 
 .container {
@@ -43,7 +40,7 @@
   flex-flow: column wrap;
   justify-content: center;
   margin-left: 15%;
-  margin-top: -36%;
+  margin-top: -18%;
   position: absolute;
   z-index: 1;
 }
@@ -67,7 +64,7 @@
   font-size: 18px;
   height: 48px;
   margin-left: 55%;
-  margin-top: -34%;
+  margin-top: -16%;
   padding: 10px 24px;
   position: absolute;
   width: 176px;
@@ -76,12 +73,12 @@
 
 .character {
   margin-left: 75%;
-  margin-top: -37%;
+  margin-top: -17%;
 }
 
 @media screen and ( max-width : 375px ) {
 
-  .topImage {
+  .borderImage {
     margin-left: -110%;
     margin-right: -100%;
     margin-top: -3%;
@@ -98,17 +95,22 @@
 
   .image {
     background-image: url('../../public/images/stepsSection/pubg-kraftonid2.png');
+    background-repeat: no-repeat;
     background-size: 250px;
     height: 300px;
   }
 
-  .text {
-    margin-left: 9%;
-    margin-right: -100%;
-    margin-top: 30%;
+  .imageIcon {
+    display: none;
   }
 
-  .text h5 {
+  .heading {
+    margin-left: 9%;
+    margin-right: -100%;
+    margin-top: 50%;
+  }
+
+  .heading h5 {
     font-size: 28px;
     letter-spacing: 1px;
   }
@@ -128,20 +130,20 @@
   .stepsMobile {
     display: flex;
     flex-flow: column wrap;
-    margin-top: -60%;
+    margin-top: -50%;
     padding-top: 0;
   }
 
   .step1 {
-    align-items: baseline;
     border-bottom: 3px solid #87878762;
     display: block;
-    padding-bottom: 15%;
+    margin-left: 25px;
+    width: 300px;
   }
 
   .mobileLogin {
     display: block;
-    padding-top: -60%;
+    padding-top: -70%;
   }
 
   .buttonMobile {
@@ -154,7 +156,7 @@
     height: 48px;
     margin-bottom: 5%;
     margin-left: 8.5%;
-    margin-top: -22%;
+    margin-top: -20%;
     padding: 10px 24px;
     position: absolute;
     width: 176px;
@@ -164,8 +166,9 @@
     color: #d69600;
     font-family: Headliner , sans-serif;
     font-size: 24px;
-    margin-bottom: -2%;
-    margin-left: 10%;
+    margin-bottom: -10%;
+    margin-left: 2%;
+    margin-top: 65%;
     padding: 0;
   }
 
@@ -173,8 +176,9 @@
     color: #000;
     font-family: Roboto , sans-serif;
     font-size: 18px;
-    margin-left: 10%;
-    padding: 0;
+    margin-left: 2%;
+    margin-top: 13%;
+    padding-bottom: 25%;
   }
 
 }

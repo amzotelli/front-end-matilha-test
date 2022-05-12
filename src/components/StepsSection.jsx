@@ -8,7 +8,7 @@ import styles from '../styles/StepsSection.module.css';
 export default function StepsSection() {
   return (
     <section>
-      <div className={styles.topImage}>
+      <div className={styles.borderImage}>
         <Image
           src="/images/stepsSection/vector_alt.png"
           alt="divider"
@@ -16,11 +16,19 @@ export default function StepsSection() {
           height="50px"
         />
       </div>
-      <div className={styles.text}>
+      <div className={styles.heading}>
         <Title title="HOW TO PARTICIPATE" />
       </div>
       <div className={ styles.container }>
         <div className={ styles.image } />
+        <div className={ styles.imageIcon } >
+          <Image
+            src="/images/stepsSection/pubg-kraftonid.png"
+            alt="steps"
+            width="460px"
+            height="532px" 
+          />
+        </div>
         <div className={ styles.stepsMobile } >
           <div className={ styles.step1 }>
             <span><h5 className={ styles.item }>STEP 1</h5></span>

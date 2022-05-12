@@ -16,20 +16,20 @@
 }
 
 .text {
-  float: left;
   font-family: Headliner , sans-serif;
   line-height: 0px;
-  margin-left: 90%;
-  margin-top: 2%;
+  margin-left: 49%;
+  margin-right: -100%;
+  margin-top: 10%;
   position: absolute;
   z-index: 4;
 }
 
 .sideImage {
   float: left;
-  margin-left: 47%;
+  margin-left: 8%;
   margin-right: -100%;
-  padding-top: 2%;
+  padding-top: 9.5%;
   position: relative;
   z-index: 1;
 }
@@ -39,8 +39,8 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 29.44px;
-  margin-left: 90%;
-  margin-top: 10%;
+  margin-left: 49%;
+  margin-top: 18%;
   position: absolute;
   width: 512px;
   z-index: 3;
@@ -53,8 +53,8 @@
   font-weight: 700;
   letter-spacing: 0.05em;
   line-height: 21px;
-  margin-left: 90%;
-  margin-top: 28.5%;
+  margin-left: 49%;
+  margin-top: 35.5%;
   position: absolute;
   text-decoration: underline;
   text-transform: uppercase;
@@ -68,8 +68,8 @@
   color: #fff;
   font-family: Teko , sans-serif;
   font-size: 18px;
-  margin-left: 90%;
-  margin-top: 33.5%;
+  margin-left: 49%;
+  margin-top: 40%;
   padding: 10px 24px;
   position: absolute;
   z-index: 1;

@@ -23,7 +23,7 @@ export default function NavBar() {
             type="button"
             className={ styles.loginButton }
           >
-            LOG IN TO EARN REWARDS
+            LOGIN TO EARN REWARDS
           </button>
         </div>
         <div className={ styles.mobile }>
