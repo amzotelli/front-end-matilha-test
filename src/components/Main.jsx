@@ -5,16 +5,18 @@ import styles from '../styles/Main.module.css';
 
 export default function Main() {
   return (
-    <section className={ styles.container }>
-      <div className={ styles.secondContainer }>
+    <section>
+      <div className={ styles.container }>
         <div className={ styles.text }>
           <Title title="ABOUT THE EVENT" />
-          <Image
-            src="/images/main/grad-line.png"
-            width="401px"
-            height="5px" 
-            alt="color"
-          />
+          <div className={ styles.mobileImage }>
+            <Image
+              src="/images/main/grad-line.png"
+              width="401px"
+              height="5px" 
+              alt="color"
+            />
+          </div>
         </div>
         <div className={ styles.sideImage }>
           <Image
@@ -44,6 +46,7 @@ export default function Main() {
         <button type="button" className={ styles.loginButton }>
           LOGIN OR CREATE ACCOUNT
         </button>
+        <div className={ styles.secondContainer }/>
       </div>
     </section>
   )
