@@ -1,7 +1,9 @@
 import Image from 'next/image';
 
-import styles from '../styles/StepsSection.module.css';
 import Title from './subcomponents/Title';
+import StepLine from './subcomponents/StepLine';
+
+import styles from '../styles/StepsSection.module.css';
 
 export default function StepsSection() {
   return (
@@ -41,6 +43,11 @@ export default function StepsSection() {
             height="516px"
           />
         </div>
+      </div>
+      <div className={ styles.steps }>
+        <StepLine step="1" text="Login to your PUBG Account" />
+        <StepLine step="2" text="Link your gaming Account" />
+        <StepLine step="3" text="Enter Sweepstakes" />
       </div>
     </section>
   );

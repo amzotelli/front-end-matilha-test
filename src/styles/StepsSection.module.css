@@ -41,3 +41,22 @@
   margin-left: 75%;
   margin-top: -15%;
 }
+
+.steps {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin-left: 15%;
+  margin-top: -42%;
+  z-index: 6;
+}
+
+.steps h5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.steps h3 {
+  display: flex;
+  flex-direction: row;
+}
