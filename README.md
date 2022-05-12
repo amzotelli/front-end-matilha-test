@@ -29,7 +29,7 @@ Nesse teste eu precisei criar uma Landing Page, responsiva (Width: Desktop 1440p
 1. Clone o repositório 
 * `git clone git@github.com:amzotelli/front-end-matilha-test.git`
 * Entre na pasta do repositório que você acabou de clonar: 
-* `cd front-end-matilha-test.git`
+* `cd front-end-matilha-test`
 
 2. Instale as dependências e inicialize o projeto: 
 * Instale as dependências: `npm install`
