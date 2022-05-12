@@ -12,3 +12,22 @@
   height: 143px;
   width: 100%vw;
 }
+
+@media screen and (max-width: 375px) {
+  .divider {
+  background-image: url('../../public/images/footer/divider-bottom_alt.png');
+  background-position: center;
+  margin-left: -150%;
+  height: 31px;
+  width: 100%vw;
+  margin-top: -5%;
+}
+
+  .footerContainer {
+  background-color: #161720;
+  background-image: url('../../public/images/footer/footer-mobile.png');
+  background-repeat: no-repeat;
+  height: 257px;
+  width: 100%vw;
+}
+}
