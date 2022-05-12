@@ -35,7 +35,7 @@ Nesse teste eu precisei criar uma Landing Page, responsiva (Width: Desktop 1440p
 
 2. Instale as dependências e inicialize o projeto: 
 * Instale as dependências: `npm install`
-* Inicialize o build da aplicação: `npm build`
+* Inicialize o build da aplicação: `npm run build`
 * Inicialize a aplicação: `npm start`
 
 3. Abra o navegador e acesse localhost:3000
