@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>teste matilha</title>
+        <title>Teste Amanda&&Matilha</title>
       </Head>
       <NavBar />
       <Header />
