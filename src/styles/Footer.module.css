@@ -16,10 +16,8 @@
 @media screen and ( max-width : 375px ) {
 
   .divider {
-    background-image: url('../../public/images/footer/divider-bottom_alt.png');
+    background-image: url('../../public/images/footer/divider-bottom.png');
     background-position: center;
-    height: 31px;
-    margin-left: -150%;
     margin-top: -5%;
     width: 100vw;
   }
@@ -28,7 +26,7 @@
     background-color: #161720;
     background-image: url('../../public/images/footer/footer-mobile.png');
     background-repeat: no-repeat;
-    height: 257px;
+    height: 297px;
     width: 100vw;
   }
 
