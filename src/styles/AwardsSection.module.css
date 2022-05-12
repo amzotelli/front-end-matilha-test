@@ -1,0 +1,40 @@
+.container {
+  background-color: #000;
+  height: 1144px;
+  width: 1440px;
+}
+
+.text {
+  float: left;
+  font-family: Headliner , sans-serif;
+  line-height: 0px;
+  margin-left: 16%;
+  margin-top: 10%;
+  position: absolute;
+  z-index: 4;
+}
+
+.paragraph {
+  font-family: Roboto , sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29.44px;
+  margin-top: -5%;
+  position: absolute;
+  width: 512px;
+  z-index: 3;
+}
+
+.background {
+  background-image: url('../../public/images/awardSection/img-pubggraffitti.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  padding-top: 56.5%;
+}
+
+.imageBottom {
+  align-self: center;
+  margin-left: 5%;
+  margin-top: 13.5%;
+}
