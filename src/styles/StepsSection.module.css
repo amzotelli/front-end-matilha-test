@@ -22,7 +22,7 @@
   background-image: url('../../public/images/stepsSection/dust-bg.png');
   height: 871px;
   object-fit: cover;
-  width: 1440px;
+  width: 100%vw;
   z-index: 0;
 }
 

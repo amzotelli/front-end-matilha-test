@@ -1,7 +1,7 @@
 .container {
   background-color: #000;
   height: 1144px;
-  width: 1440px;
+  width: 100%vw;
 }
 
 .text {

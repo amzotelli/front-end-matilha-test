@@ -6,8 +6,9 @@
 }
 
 .footerContainer {
+  background-color: #161720;
   background-image: url('../../public/images/footer/footer.png');
+  background-repeat: no-repeat;
   height: 143px;
-  width: 1440px;
-
+  width: 100%vw;
 }
