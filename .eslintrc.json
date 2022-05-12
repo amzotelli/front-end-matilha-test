@@ -6,7 +6,6 @@
     "extends": [
         "next/core-web-vitals",
         "eslint:recommended",
-        "plugin:react/recommended",
         "airbnb",
         "prettier"
     ],
@@ -24,6 +23,7 @@
     "rules": {
     "prefer-const": "error",
     "react/react-in-jsx-scope": "off",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    "indent": ["error", 2]
     }
 }
