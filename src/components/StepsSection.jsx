@@ -20,13 +20,23 @@ export default function StepsSection() {
         <Title title="HOW TO PARTICIPATE" />
       </div>
       <div className={ styles.container }>
-        <Image
-          src="/images/stepsSection/pubg-kraftonid.png"
-          alt="steps"
-          width="430px"
-          height="420px"
-          objectFit="cover"
-        />
+        <div className={ styles.image } />
+        <div className={ styles.stepsMobile } >
+          <div className={ styles.step1 }>
+            <span><h5 className={ styles.item }>STEP 1</h5></span>
+            <span><h3 className={styles.line}>Login to your PUBG Account</h3></span>
+          </div>
+          <div className={ styles.mobileLogin }>
+            <button
+              className={ styles.buttonMobile }
+              type="button"
+            >
+          LOGIN
+            </button>
+          </div>
+          <StepLine step="2" text="Link your gaming Account" />
+          <StepLine step="3" text="Enter Sweepstakes" />
+        </div>
         <div className={ styles.steps }>
           <StepLine step="1" text="Login to your PUBG Account" />
           <StepLine step="2" text="Link your gaming Account" />
