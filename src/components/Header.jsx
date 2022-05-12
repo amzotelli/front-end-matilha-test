@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 import styles from '../styles/Header.module.css';
 
-export default function Section1() {
+export default function Header() {
   return (
     <section>
       <div className={ styles.container }>
@@ -13,7 +13,7 @@ export default function Section1() {
             width="513px"
             height="161px"
           />
-          </div>
+        </div>
         <div className={ styles.detail }>
           <Image
             src="/images/header/spray-bg.png"
@@ -28,7 +28,7 @@ export default function Section1() {
           >
             LOGIN OR CREATE ACCOUNT
           </button>
-          </div>
+        </div>
       </div>
     </section>
   )

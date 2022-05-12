@@ -1,11 +1,23 @@
 .container {
-  width: 1440px;
   background-image: url('../../public/images/header/l-1920px.png');
   background-position: center;
   height: 700px;
+  width: 1440px;
 }
 
-.detail { 
+.leftSide {
+  display: flex;
+  float: left;
+  justify-content: center;
+  margin-left: -4.8%;
+  margin-right: -100%;
+  padding-top: 14.5%;
+  position: relative;
+  width: 66%;
+  z-index: 3;
+}
+
+.detail {
   float: left;
   margin-left: -140px;
   padding-top: 100px;
@@ -14,36 +26,18 @@
   z-index: 1;
 }
 
-.leftSide { 
-  display: flex;
-  float: left;
-  justify-content: center;
-  margin-right: -100%;
-  margin-left: -4.8%;
-  padding-top: 14.5%;
-  position: relative;
-  width: 66%;
-  z-index: 3;
-}
-
-.main::after { 
-  clear: both;
-  content: ' ';
-  display: table;
-}
-
-.loginButton { 
-  background-color: #F2A900;
+.loginButton {
+  background-color: #f2a900;
   border: none;
   border-radius: 2px;
   color: #fff;
   float: left;
-  font-family: 'Teko', sans-serif;
+  font-family: Teko , sans-serif;
   font-size: 18px;
-  padding: 10px 24px;
+  margin-left: 32%;
   margin-right: -100%;
   margin-top: 35%;
-  margin-left: 32%;
+  padding: 10px 24px;
   position: relative;
   z-index: 1;
 }
