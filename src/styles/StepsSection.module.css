@@ -1,0 +1,43 @@
+.topImage {
+  object-fit: contain;
+  padding-top: 0%;
+}
+
+.text {
+  font-family: Headliner , sans-serif;
+  line-height: 0px;
+  margin-left: 14.8%;
+  margin-top: 10%;
+  position: absolute;
+  z-index: 4;
+}
+
+.container {
+  background-image: url('../../public/images/stepsSection/dust-bg.png');
+  height: 870px;
+  object-fit: cover;
+  width: 1440px;
+}
+
+.text h3 {
+  color: #202020;
+}
+
+.button {
+  background-color: #f2a900;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: Teko , sans-serif;
+  font-size: 18px;
+  height: 48px;
+  margin-left: 60%;
+  margin-top: -5%;
+  padding: 10px 24px;
+  width: 176px;
+}
+
+.character {
+  margin-left: 75%;
+  margin-top: -15%;
+}
