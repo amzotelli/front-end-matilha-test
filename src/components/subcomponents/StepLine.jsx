@@ -1,6 +1,6 @@
 import propTypes from 'prop-types';
 
-import styles from '../../styles/StepLine.module.css';
+import styles from '../../styles/subcomponents/StepLine.module.css';
 
 export default function StepLine(props) {
   const { step, text } = props;

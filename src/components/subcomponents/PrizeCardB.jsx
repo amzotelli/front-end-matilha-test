@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import styles from '../../styles/PrizeCard.module.css';
+import styles from '../../styles/subcomponents/PrizeCard.module.css';
 
 export default function PrizeCardB() {
   return (

@@ -1,5 +1,6 @@
 import propTypes from 'prop-types';
-import styles from '../../styles/Title.module.css';
+
+import styles from '../../styles/subcomponents/Title.module.css';
 
 export default function Title(props) {
   const { title } = props;
