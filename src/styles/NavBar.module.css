@@ -4,13 +4,14 @@
   color: #fff;
   height: 88px;
   margin: 0;
+  padding: 5px;
   width: 1440px;
-  z-index: -3;
+  z-index: 6;
 }
 
 .leftSide {
   align-content: center;
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   font-family: Bender , sans-serif;
   font-size: 14px;
@@ -28,7 +29,7 @@
 
 .leftSide span {
   align-items: center;
-  margin: 20px 10px;
+  margin-left: 50px;
 }
 
 .logo {
