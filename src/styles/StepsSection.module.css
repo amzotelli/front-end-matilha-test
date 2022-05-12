@@ -1,6 +1,6 @@
 .topImage {
+  margin-top: -2%;
   object-fit: contain;
-  padding-top: 0%;
 }
 
 .text {
@@ -12,6 +12,10 @@
   z-index: 4;
 }
 
+.text h3 {
+  color: #202020;
+}
+
 .container {
   background-image: url('../../public/images/stepsSection/dust-bg.png');
   height: 870px;
@@ -19,35 +23,13 @@
   width: 1440px;
 }
 
-.text h3 {
-  color: #202020;
-}
-
-.button {
-  background-color: #f2a900;
-  border: none;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Teko , sans-serif;
-  font-size: 18px;
-  height: 48px;
-  margin-left: 60%;
-  margin-top: -5%;
-  padding: 10px 24px;
-  width: 176px;
-}
-
-.character {
-  margin-left: 75%;
-  margin-top: -15%;
-}
-
 .steps {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   margin-left: 15%;
-  margin-top: -42%;
+  margin-top: -10%;
+  position: absolute;
   z-index: 6;
 }
 
@@ -59,4 +41,24 @@
 .steps h3 {
   display: flex;
   flex-direction: row;
+}
+
+.button {
+  background-color: #f2a900;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: Teko , sans-serif;
+  font-size: 18px;
+  height: 48px;
+  margin-left: 70%;
+  margin-top: -7%;
+  padding: 10px 24px;
+  position: absolute;
+  width: 176px;
+}
+
+.character {
+  margin-left: 71.5%;
+  margin-top: -7.5%;
 }
