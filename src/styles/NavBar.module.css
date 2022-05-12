@@ -67,6 +67,14 @@
 
 .container {
   max-width: 375px;
+  padding: 0;
+  margin: 0;
+}
+
+.leftSide {
+  padding: 5%;
+  margin: 0;
+  display: block;
 }
 
 .leftSide span {
@@ -79,7 +87,28 @@
 }
 
 .loginButton {
-  width: 85px;
-  height: 48px;
+  display: none;
+}
+
+.mobile {
+  display: block;
+  padding: 6%;
+}
+
+.language {
+  display: block;
+  padding-left: 90%;
+  margin-top: -12%;
+}
+
+.loginButtonMobile {
+  background-color: #f2a900;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: Teko , sans-serif;
+  font-size: 18px;
+  padding: 10px 24px;
+  margin-left: 60%;
 }
 }
