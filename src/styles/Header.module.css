@@ -41,3 +41,39 @@
   position: relative;
   z-index: 1;
 }
+
+@media screen and (max-width: 375px) {
+.container {
+  align-items: center;
+  align-content: center;  
+  background-image: url('../../public/images/header/s-764px.png');
+  background-size: 220%;
+  background-position: center;
+  padding-top: -60%;
+  padding-bottom: 45px;
+  object-fit: cover;
+  height: 590px;
+  width: 100%vw;
+}
+
+.detail {
+  margin-top: -85%;
+  margin-left: -70%;
+  width: 220%;
+  width: 100%vw;
+}
+
+.loginButton {
+  margin-right: -100px;
+  margin-left: 43%;
+  margin-top: -120px;
+}
+
+.leftSide {
+  margin-right: -100px;
+  margin-left: 1%;
+  margin-top: 110%;
+  width: 90%;
+}
+
+}
