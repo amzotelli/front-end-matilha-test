@@ -1,7 +1,7 @@
 .container {
   background-color: #000;
   height: 1144px;
-  width: 1440px;
+  width: 100vw;
 }
 
 .text {
@@ -37,4 +37,30 @@
   align-self: center;
   margin-left: 5%;
   margin-top: 13.5%;
+}
+
+@media screen and ( max-width : 375px ) {
+
+  .background {
+    background-image: url('../../public/images/awardSection/img-pubggraffitti.png');
+    background-size: 80%;
+    padding-left: 115%;
+    padding-right: -100%;
+    padding-top: 375%;
+  }
+
+  .text {
+    margin-left: 5%;
+    margin-right: -100%;
+    margin-top: -160%;
+  }
+
+  .paragraph {
+    width: 325px;
+  }
+
+  .container {
+    height: 840px;
+  }
+
 }

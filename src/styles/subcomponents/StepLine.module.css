@@ -22,3 +22,26 @@
   margin-left: 35px;
   padding: 15px 0;
 }
+
+@media screen and ( max-width : 375px ) {
+
+  .border {
+    display: block;
+    margin-left: 5%;
+    width: 300px;
+  }
+
+  .item {
+    font-size: 24px;
+    margin-bottom: -2%;
+    margin-left: 5%;
+    padding: 0%;
+  }
+
+  .line {
+    font-size: 18px;
+    margin-left: 5%;
+    padding: 0;
+  }
+
+}

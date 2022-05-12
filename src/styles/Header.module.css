@@ -2,7 +2,7 @@
   background-image: url('../../public/images/header/l-1920px.png');
   background-position: center;
   height: 700px;
-  width: 1440px;
+  width: 100vw;
 }
 
 .leftSide {
@@ -40,4 +40,40 @@
   padding: 10px 24px;
   position: relative;
   z-index: 1;
+}
+
+@media screen and ( max-width : 375px ) {
+
+  .container {
+    align-content: center;
+    align-items: center;
+    background-image: url('../../public/images/header/s-764px.png');
+    background-position: center;
+    background-size: 220%;
+    height: 590px;
+    object-fit: cover;
+    padding-bottom: 45px;
+    padding-top: -60%;
+    width: 100vw;
+  }
+
+  .detail {
+    margin-left: -70%;
+    margin-top: -85%;
+    width: 220%;
+  }
+
+  .loginButton {
+    margin-left: 43%;
+    margin-right: -100px;
+    margin-top: -120px;
+  }
+
+  .leftSide {
+    margin-left: 1%;
+    margin-right: -100px;
+    margin-top: 110%;
+    width: 90%;
+  }
+
 }

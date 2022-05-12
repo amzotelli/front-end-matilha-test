@@ -5,7 +5,7 @@
   height: 88px;
   margin: 0;
   padding: 5px;
-  width: 1440px;
+  width: 100vw;
   z-index: 6;
 }
 
@@ -39,8 +39,7 @@
 }
 
 .rightSide {
-  display: flex;
-  justify-content: flex-end;
+  margin-left: 82%;
   padding: 15px;
   position: absolute;
 }
@@ -58,4 +57,59 @@
   padding: 10px 24px;
   position: absolute;
   z-index: 4;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and ( max-width : 375px ) {
+
+  .container {
+    margin: 0;
+    max-width: 375px;
+    padding: 0;
+  }
+
+  .leftSide {
+    display: block;
+    margin: 0;
+    padding: 5%;
+  }
+
+  .leftSide span {
+    display: none;
+  }
+
+  .logo {
+    height: 40px;
+    width: 114px;
+  }
+
+  .loginButton {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    padding: 6%;
+  }
+
+  .language {
+    display: block;
+    margin-top: -12%;
+    padding-left: 90%;
+  }
+
+  .loginButtonMobile {
+    background-color: #f2a900;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: Teko , sans-serif;
+    font-size: 18px;
+    margin-left: 60%;
+    padding: 10px 24px;
+  }
+
 }

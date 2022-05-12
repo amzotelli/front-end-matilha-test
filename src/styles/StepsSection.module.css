@@ -1,11 +1,11 @@
-.topImage {
+.borderImage {
   margin-bottom: -1%;
   object-fit: cover;
   position: absolute;
   z-index: 3;
 }
 
-.text {
+.heading {
   font-family: Headliner , sans-serif;
   line-height: 0px;
   margin-left: 14.8%;
@@ -14,16 +14,25 @@
   z-index: 4;
 }
 
-.text h3 {
+.heading h3 {
   color: #202020;
+}
+
+.imageIcon {
+  margin-left: -0%;
+  padding-top: -20%;
 }
 
 .container {
   background-image: url('../../public/images/stepsSection/dust-bg.png');
   height: 871px;
   object-fit: cover;
-  width: 1440px;
+  width: 100vw;
   z-index: 0;
+}
+
+.stepsMobile {
+  display: none;
 }
 
 .steps {
@@ -31,7 +40,7 @@
   flex-flow: column wrap;
   justify-content: center;
   margin-left: 15%;
-  margin-top: -10%;
+  margin-top: -18%;
   position: absolute;
   z-index: 1;
 }
@@ -54,8 +63,8 @@
   font-family: Teko , sans-serif;
   font-size: 18px;
   height: 48px;
-  margin-left: 29%;
-  margin-top: 22%;
+  margin-left: 55%;
+  margin-top: -16%;
   padding: 10px 24px;
   position: absolute;
   width: 176px;
@@ -64,5 +73,112 @@
 
 .character {
   margin-left: 75%;
-  margin-top: -9%;
+  margin-top: -17%;
+}
+
+@media screen and ( max-width : 375px ) {
+
+  .borderImage {
+    margin-left: -110%;
+    margin-right: -100%;
+    margin-top: -3%;
+    object-fit: contain;
+    position: absolute;
+    z-index: 3;
+  }
+
+  .container {
+    height: 780px;
+    object-fit: cover;
+    width: 100vw;
+  }
+
+  .image {
+    background-image: url('../../public/images/stepsSection/pubg-kraftonid2.png');
+    background-repeat: no-repeat;
+    background-size: 250px;
+    height: 300px;
+  }
+
+  .imageIcon {
+    display: none;
+  }
+
+  .heading {
+    margin-left: 9%;
+    margin-right: -100%;
+    margin-top: 50%;
+  }
+
+  .heading h5 {
+    font-size: 28px;
+    letter-spacing: 1px;
+  }
+
+  .character {
+    display: none;
+  }
+
+  .steps {
+    display: none;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .stepsMobile {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: -50%;
+    padding-top: 0;
+  }
+
+  .step1 {
+    border-bottom: 3px solid #87878762;
+    display: block;
+    margin-left: 25px;
+    width: 300px;
+  }
+
+  .mobileLogin {
+    display: block;
+    padding-top: -70%;
+  }
+
+  .buttonMobile {
+    background-color: #f2a900;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: Teko , sans-serif;
+    font-size: 18px;
+    height: 48px;
+    margin-bottom: 5%;
+    margin-left: 8.5%;
+    margin-top: -20%;
+    padding: 10px 24px;
+    position: absolute;
+    width: 176px;
+  }
+
+  .item {
+    color: #d69600;
+    font-family: Headliner , sans-serif;
+    font-size: 24px;
+    margin-bottom: -10%;
+    margin-left: 2%;
+    margin-top: 65%;
+    padding: 0;
+  }
+
+  .line {
+    color: #000;
+    font-family: Roboto , sans-serif;
+    font-size: 18px;
+    margin-left: 2%;
+    margin-top: 13%;
+    padding-bottom: 25%;
+  }
+
 }
