@@ -1,11 +1,13 @@
 .divider {
-  background-image: url('../../public/images/footer/divider-bottom.png');
+  background-image: url('../../public/images/footer/divider-bottom_alt.png');
   height: 31px;
   width: 1440px;
+  margin-top: -2%;
 }
 
 .footerContainer {
   background-image: url('../../public/images/footer/footer.png');
   height: 143px;
   width: 1440px;
+
 }

@@ -1,6 +1,8 @@
 .topImage {
-  margin-top: -2%;
-  object-fit: contain;
+  margin-bottom: -1%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 3;
 }
 
 .text {
@@ -18,9 +20,10 @@
 
 .container {
   background-image: url('../../public/images/stepsSection/dust-bg.png');
-  height: 870px;
+  height: 871px;
   object-fit: cover;
   width: 1440px;
+  z-index: 0;
 }
 
 .steps {
@@ -30,7 +33,7 @@
   margin-left: 15%;
   margin-top: -10%;
   position: absolute;
-  z-index: 6;
+  z-index: 1;
 }
 
 .steps h5 {
@@ -51,14 +54,15 @@
   font-family: Teko , sans-serif;
   font-size: 18px;
   height: 48px;
-  margin-left: 70%;
-  margin-top: -7%;
+  margin-left: 29%;
+  margin-top: 22%;
   padding: 10px 24px;
   position: absolute;
   width: 176px;
+  z-index: 2;
 }
 
 .character {
-  margin-left: 71.5%;
-  margin-top: -7.5%;
+  margin-left: 75%;
+  margin-top: -9%;
 }
