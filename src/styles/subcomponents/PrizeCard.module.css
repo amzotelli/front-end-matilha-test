@@ -7,7 +7,7 @@
   padding-top: 130%;
   position: absolute;
   width: 100%;
-  z-index: 12;
+  z-index: 13;
 }
 
 .headingA {
@@ -21,7 +21,7 @@
   margin-top: 51%;
   position: absolute;
   text-transform: uppercase;
-  z-index: 11;
+  z-index: 13;
 }
 
 .titleImageA {
@@ -29,7 +29,7 @@
   margin-right: -100%;
   margin-top: 45%;
   position: absolute;
-  z-index: 10;
+  z-index: 12;
 }
 
 .subtitleA {
@@ -39,7 +39,7 @@
   margin-right: -100px;
   margin-top: 182%;
   position: absolute;
-  z-index: 9;
+  z-index: 11;
 }
 
 .prizeTextA {
@@ -51,7 +51,7 @@
   margin-top: 185%;
   position: absolute;
   text-align: center;
-  z-index: 8;
+  z-index: 10;
 }
 
 .rewardA {
@@ -59,7 +59,15 @@
   margin-right: -100%;
   margin-top: 60%;
   position: absolute;
-  z-index: 7;
+  z-index: 9;
+}
+
+.rewardBackgroundA {
+  background-image: url('../../../public/images/awardSection/background.png');
+  height: 520px;
+  object-fit: cover;
+  width: 528px;
+  z-index: 8;
 }
 
 .prizeContainerA {
@@ -73,7 +81,7 @@
   object-fit: cover;
   position: absolute;
   width: 528px;
-  z-index: 6;
+  z-index: 7;
 }
 
 .headingB {
@@ -86,14 +94,14 @@
   margin-top: -77%;
   position: absolute;
   text-transform: uppercase;
-  z-index: 5;
+  z-index: 6;
 }
 
 .titleImageB {
   margin-right: -248%;
   margin-top: -70%;
   position: absolute;
-  z-index: 4;
+  z-index: 5;
 }
 
 .subtitleB {
@@ -102,7 +110,7 @@
   margin-right: -275%;
   margin-top: 180%;
   position: absolute;
-  z-index: 3;
+  z-index: 4;
 }
 
 .prizeTextB {
@@ -114,13 +122,21 @@
   margin-top: 198%;
   position: absolute;
   text-align: center;
-  z-index: 2;
+  z-index: 3;
 }
 
 .rewardB {
   margin-right: -275%;
   margin-top: 34%;
   position: absolute;
+  z-index: 2;
+}
+
+.rewardBackgroundB {
+  background-image: url('../../../public/images/awardSection/background.png');
+  height: 520px;
+  object-fit: cover;
+  width: 528px;
   z-index: 1;
 }
 
@@ -136,4 +152,129 @@
   position: absolute;
   width: 528px;
   z-index: 0;
+}
+
+@media screen and ( max-width : 375px ) {
+
+  .prizeB {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 75%;
+    padding-top: 130%;
+    position: absolute;
+    width: 100%;
+  }
+
+  .headingA {
+    font-size: 22px;
+    margin-left: 8%;
+    margin-right: -100%;
+    margin-top: 52%;
+  }
+
+  .titleImageA {
+    margin-left: -6%;
+    margin-right: -100%;
+    margin-top: 45%;
+    width: 376px;
+  }
+
+  .subtitleA {
+    font-family: Bender , sans-serif;
+    font-size: 14px;
+    margin-left: 26%;
+    margin-right: -100px;
+    margin-top: 150%;
+    position: absolute;
+  }
+
+  .prizeTextA {
+    line-height: 7px;
+    margin-left: 8%;
+    margin-right: -100%;
+    margin-top: 155%;
+  }
+
+  .rewardA {
+    margin-left: 1%;
+    margin-right: -100%;
+    margin-top: 59%;
+    width: 310px;
+  }
+
+  .rewardBackgroundA {
+    background-image: url('../../../public/images/awardSection/backgroundMobile.png');
+    height: 428px;
+    object-fit: contain;
+  }
+
+  .prizeContainerA {
+    height: 428px;
+    margin-left: -2%;
+    margin-right: -100%;
+    margin-top: 50%;
+    width: 330px;
+  }
+
+  .headingB {
+    color: #fff;
+    font-family: Headliner , sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-left: -310%;
+    margin-right: -100%;
+    margin-top: 185%;
+    position: absolute;
+    text-transform: uppercase;
+  }
+
+  .titleImageB {
+    margin-left: -445px;
+    margin-right: 0;
+    margin-top: 190%;
+    width: 120%;
+  }
+
+  .subtitleB {
+    margin-left: -780px;
+    margin-right: -100%;
+    margin-top: 370%;
+  }
+
+  .prizeTextB {
+    color: #729da6;
+    font-size: 24px;
+    letter-spacing: 0.8px;
+    line-height: 7px;
+    margin-left: -780px;
+    margin-right: -100%;
+    margin-top: 390%;
+  }
+
+  .rewardB {
+    margin-left: -250%;
+    margin-right: -100%;
+    margin-top: 250%;
+    width: 310px;
+  }
+
+  .rewardBackgroundB {
+    background-image: url('../../../public/images/awardSection/backgroundMobile.png');
+    height: 428px;
+    margin-top: 20%;
+    object-fit: cover;
+    width: 330px;
+  }
+
+  .prizeContainerB {
+    height: 428px;
+    margin-left: -2%;
+    margin-right: 148%;
+    margin-top: 300%;
+    width: 330px;
+  }
+
 }

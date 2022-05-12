@@ -1,6 +1,6 @@
 .container {
   background-color: #000;
-  width: 1440px;
+  width: 100vw;
 }
 
 .secondContainer {
@@ -16,20 +16,20 @@
 }
 
 .text {
-  float: left;
   font-family: Headliner , sans-serif;
   line-height: 0px;
-  margin-left: 90%;
-  margin-top: 2%;
+  margin-left: 49%;
+  margin-right: -100%;
+  margin-top: 10%;
   position: absolute;
   z-index: 4;
 }
 
 .sideImage {
   float: left;
-  margin-left: 47%;
+  margin-left: 8%;
   margin-right: -100%;
-  padding-top: 2%;
+  padding-top: 9.5%;
   position: relative;
   z-index: 1;
 }
@@ -39,8 +39,8 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 29.44px;
-  margin-left: 90%;
-  margin-top: 10%;
+  margin-left: 49%;
+  margin-top: 18%;
   position: absolute;
   width: 512px;
   z-index: 3;
@@ -53,8 +53,8 @@
   font-weight: 700;
   letter-spacing: 0.05em;
   line-height: 21px;
-  margin-left: 90%;
-  margin-top: 28.5%;
+  margin-left: 49%;
+  margin-top: 35.5%;
   position: absolute;
   text-decoration: underline;
   text-transform: uppercase;
@@ -68,9 +68,60 @@
   color: #fff;
   font-family: Teko , sans-serif;
   font-size: 18px;
-  margin-left: 90%;
-  margin-top: 33.5%;
+  margin-left: 49%;
+  margin-top: 40%;
   padding: 10px 24px;
   position: absolute;
   z-index: 1;
+}
+
+@media screen and ( max-width : 375px ) {
+
+  .secondContainer {
+    background-image: url('../../public/images/main/background-intro.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    margin-left: -130%;
+    padding-top: 330%;
+  }
+
+  .text {
+    float: left;
+    font-family: Headliner , sans-serif;
+    margin-left: 6%;
+    margin-right: -100%;
+    margin-top: 20%;
+    width: 280px;
+  }
+
+  .mobileImage {
+    margin-top: -4%;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 30px;
+    margin-right: -100px;
+    margin-top: 50%;
+    width: 310px;
+  }
+
+  .textLink {
+    margin-left: 8%;
+    margin-top: 145%;
+  }
+
+  .sideImage {
+    margin-left: 1%;
+    padding-top: 195%;
+    width: 100%;
+  }
+
+  .loginButton {
+    margin-left: -240%;
+    margin-top: 165%;
+  }
+
 }

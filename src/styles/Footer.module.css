@@ -1,13 +1,33 @@
 .divider {
   background-image: url('../../public/images/footer/divider-bottom_alt.png');
   height: 31px;
-  width: 1440px;
   margin-top: -2%;
+  width: 1440px;
 }
 
 .footerContainer {
+  background-color: #161720;
   background-image: url('../../public/images/footer/footer.png');
+  background-repeat: no-repeat;
   height: 143px;
-  width: 1440px;
+  width: 100vw;
+}
+
+@media screen and ( max-width : 375px ) {
+
+  .divider {
+    background-image: url('../../public/images/footer/divider-bottom.png');
+    background-position: center;
+    margin-top: -5%;
+    width: 100vw;
+  }
+
+  .footerContainer {
+    background-color: #161720;
+    background-image: url('../../public/images/footer/footer-mobile.png');
+    background-repeat: no-repeat;
+    height: 297px;
+    width: 100vw;
+  }
 
 }
