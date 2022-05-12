@@ -1,0 +1,24 @@
+.border {
+  align-items: baseline;
+  border-bottom: 3px solid #87878762;
+  display: flex;
+  width: 857px;
+}
+
+.item {
+  color: #d69600;
+  font-family: Headliner , sans-serif;
+  font-size: 20px;
+  margin-left: 35px;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
+.line {
+  color: #000;
+  font-family: Roboto , sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 35px;
+  padding: 15px 0;
+}

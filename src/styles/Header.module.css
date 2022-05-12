@@ -1,0 +1,43 @@
+.container {
+  background-image: url('../../public/images/header/l-1920px.png');
+  background-position: center;
+  height: 700px;
+  width: 1440px;
+}
+
+.leftSide {
+  display: flex;
+  float: left;
+  justify-content: center;
+  margin-left: -4.8%;
+  margin-right: -100%;
+  padding-top: 14.5%;
+  position: relative;
+  width: 66%;
+  z-index: 3;
+}
+
+.detail {
+  float: left;
+  margin-left: -140px;
+  padding-top: 100px;
+  position: relative;
+  width: 1025px;
+  z-index: 1;
+}
+
+.loginButton {
+  background-color: #f2a900;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  float: left;
+  font-family: Teko , sans-serif;
+  font-size: 18px;
+  margin-left: 32%;
+  margin-right: -100%;
+  margin-top: 35%;
+  padding: 10px 24px;
+  position: relative;
+  z-index: 1;
+}

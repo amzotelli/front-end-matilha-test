@@ -1,0 +1,13 @@
+.subtitle {
+  color: #f2a900;
+  font-size: 24px;
+  font-weight: 400;
+  margin: -6px 0;
+  text-transform: uppercase;
+}
+
+.title {
+  color: #fff;
+  font-size: 57px;
+  font-weight: 400;
+}
