@@ -10,7 +10,7 @@ export default function StepsSection() {
     <section>
       <div className={styles.topImage}>
         <Image
-          src="/images/stepsSection/vector.png"
+          src="/images/stepsSection/vector_alt.png"
           alt="divider"
           width="1890px"
           height="50px"
