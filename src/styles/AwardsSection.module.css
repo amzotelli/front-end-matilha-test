@@ -38,3 +38,28 @@
   margin-left: 5%;
   margin-top: 13.5%;
 }
+
+@media screen and (max-width: 375px) {
+  .background {
+    background-image: url('../../public/images/awardSection/img-pubggraffitti.png');
+    background-size: 80%;
+    padding-top: 375%;
+    padding-left: 115%;
+    padding-right: -100%;
+  }  
+
+  .text {
+    margin-top: -160%;
+    margin-right: -100%;
+    margin-left: 5%;
+  }
+
+  .paragraph {
+    width: 325px;
+  }
+
+  .container {
+    height: 840px;
+  }
+  
+}

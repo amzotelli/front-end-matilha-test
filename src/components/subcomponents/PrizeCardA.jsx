@@ -26,14 +26,8 @@ export default function PrizeCardA() {
           objectFit="cover"
         />
       </div>
-      <div className={styles.prizeContainerA}>
-        <Image
-          src="/images/awardSection/background.png"
-          alt="background"
-          width="528px"
-          height="520px"
-          objectFit="cover"
-        />
+      <div className={ styles.prizeContainerA }>
+        <div className={ styles.rewardBackgroundA } />
       </div>
       <p className={ styles.subtitleA }> +++++ WILL RECEIVE { '>' }{ '>' }{ '>' }{ '>' }{ '>' }{ '>' }{ '>' } </p>
       <div className={ styles.prizeTextA }>
